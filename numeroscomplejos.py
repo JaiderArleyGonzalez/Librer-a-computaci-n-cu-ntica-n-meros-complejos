@@ -18,8 +18,8 @@ def producto_complejos(mult1, mult2):
 def resta_complejos(res1, res2):
     """Función que retorna la resta de dos números complejos
     (list) -> (list)"""
-    a = res1[0] + res2[0]
-    b = res1[1] + res2[1]
+    a = res1[0] - res2[0]
+    b = res1[1] - res2[1]
     resta = [a, b]
     return resta
 def division_complejos(div1, div2):
