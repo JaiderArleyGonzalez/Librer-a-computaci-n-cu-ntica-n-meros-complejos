@@ -182,7 +182,7 @@ def Hermitiana(A):
         return "Hermitiana"
     else:
         return "No es hermitiana"
-"""def ProductTensor(A,B):
+def ProductTensor(A,B):
     columnas, filas = len(A)*len(B), len(A[0])*len(B[0])
     r, filas_usadas, columnas_usadas = [], 0, 0
     for i in range(filas):
@@ -200,7 +200,7 @@ def Hermitiana(A):
                 columnas_usadas +=len(B)
             columnas_usadas = 0
             filas_usadas += len(B)
-    return r"""
+    return r
                             
 
 
