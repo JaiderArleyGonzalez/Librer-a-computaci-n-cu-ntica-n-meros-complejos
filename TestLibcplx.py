@@ -172,5 +172,14 @@ class TestCplxOperations(unittest.TestCase):
         matriz2 = [[(-1,0),(1,-1)],[(0,1),(1,0)]]
         hermitiana2 = lc.Hermitiana(matriz2)
         self.assertAlmostEqual(hermitiana2, "No es hermitiana")
+    def test_ProductTensor(self):
+        v1 = [(3, 0), (1, 0)]
+        v2 = [(2,1),(0,1),(2,0)]
+        v3 = [(2,0),(1,0),(3,0)]
+        v4 = [(2,-6),(2,2),(-1,1)]
+        tensor1 = lc.ProductTensor(v1,v2)
+        tensor2 = lc.ProductTensor(v3, v4)
+        self.assertAlmostEqual(tensor1, [(6,3),(0,3),(6,0),(2,1),(0,1),(2,0)])
+        self.assertAlmostEqual(tensor2,[(4,-12),(4,4),(-2,2),(2,-6),(2,2),(-1,1),(6,-18),(6,6),(-3,3)])
 if __name__ == '__main__':
     unittest.main()
