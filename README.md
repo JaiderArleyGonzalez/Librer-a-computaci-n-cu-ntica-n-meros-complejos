@@ -1,6 +1,7 @@
 # numeroscomplejos
 Realizado por Jaider González
-Esta librería contiene las siguientes operaciones con números complejos dentro del archivo numeroscomplejos.py:
+
+Esta librería contiene las siguientes operaciones con números complejos dentro del archivo numeroscomplejos.py contenido en el directorio LibNumerosComplejos:
 1. Suma
 2. Producto
 3. Resta
@@ -15,26 +16,41 @@ Esta librería contiene las siguientes operaciones con números complejos dentro
 12. Adición de matrices complejas.
 13. Inversa (aditiva) de una matriz compleja.
 14. Multiplicación de un escalar por una matriz compleja.
-15. Transpuesta de una matriz/vector
-17. Conjugada de una matriz/vector
-18. Adjunta (daga) de una matriz/vector
-19. Producto de dos matrices (de tamaños compatibles)
+15. Transpuesta de una matriz/vector.
+17. Conjugada de una matriz/vector.
+18. Adjunta (daga) de una matriz/vector.
+19. Producto de dos matrices (de tamaños compatibles).
 20. Función para calcular la "acción" de una matriz sobre un vector.
-21. Producto interno de dos vectores
-22. Norma de un vector
-23. Distancia entre dos vectores
-24. Revisar si una matriz es unitaria
-25. Revisar si una matriz es Hermitiana
-26. Producto tensor de dos vectores
-Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py.
+21. Producto interno de dos vectores.
+22. Norma de un vector.
+23. Distancia entre dos vectores.
+24. Revisar si una matriz es unitaria.
+25. Revisar si una matriz es Hermitiana.
+26. Producto tensor de dos vectores.
+27. Producto tensor de dos matrices.
+28. Módulo cuadrado de un vector.
+29. Módulo cuadrado de un complejo.
+30. Normalizar un vector.
+31. Hallar la matriz identidad.
 
-Además de ello, cuenta con retos de programación del capítulo 3 de Quantum computing for computer scientists dentro del archivo quantum.py
+Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py en el directorio LibNumerosComplejos.
+
+Además de ello, cuenta con retos de programación de los capítulos 3 y 4 de Quantum computing for computer scientists dentro del archivo quantum.py en el directorio Teoria_cuantica_basica.
+
 Aquí se encuentra:
 1. Los experimentos de la canicas con coeficiente booleanos
 2. Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
 3. Experimento de las múltiples rendijas cuántico.
 4. Función que grafica con un diagrama de barras las probabilidades de un vector de estados
-
+5. Función que calcula la probabilidad de encontrar una partícula en una posición en particular.
+6. Función que calcula la amplitud de transición.
+7. Función que calcula la probabilidad de transitar.
+8. Función que calcula la media del observable en el estado dado.
+9. Función que calcula la varianza del observable en el estado dado.
+10. Función que calcula el delta del observable en el estado dado.
+11. Función que calcula calcula los valores propios del observable.
+12. Función que calcula la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
+13. Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial
 Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
 
-Se realizan pruebas con la librería unittest dentro de TestQuantum.py
+Se realizan pruebas con la librería unittest dentro de TestQuantum.py en el directorio Teoria_cuantica_basica. 
