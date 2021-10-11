@@ -231,9 +231,12 @@ def Unitaria(A):
         for j in range(len(m[0])):
             if i == j:
                 if m[i][j] != (1,0):
-                    return "No unitaria"
+                    if (round(m[i][j][0], 10), round(m[i][j][1], 10)) != (1, 0):
+                        
+                        return "No unitaria"
             else:
                 if m[i][j] != (0,0):
+
                     return "No unitaria"
                 else:
                     return "Unitaria"

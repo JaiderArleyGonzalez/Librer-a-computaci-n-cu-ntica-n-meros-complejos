@@ -1,4 +1,4 @@
-import LibNumerosComplejos.numeroscomplejos as lc
+import numeroscomplejos as lc
 import unittest
 class TestCplxOperations(unittest.TestCase):
     def test_suma_complejos(self):

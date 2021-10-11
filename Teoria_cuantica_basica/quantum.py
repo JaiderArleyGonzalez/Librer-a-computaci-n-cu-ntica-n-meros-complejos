@@ -145,7 +145,8 @@ def ProbTransition(psi, e):
 
 def FinalState(U, psi, t):
     vector = psi
-    index = 0
+    index = 1
+    finaldin = U
     while index < t:
         din = lc.ProductMatrix(U,U)
         finaldin = din
